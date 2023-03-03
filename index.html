@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Swiggy</title>
+   <script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<style>
+.swiggy{
+width:22%;
+padding:30px;
+margin:auto;
+box-shadow:0 8px 16px 0 #ada2a2;
+}
+.swiggy:hover{
+border:1px solid #6b6969;
+box-shadow:0 8px 16px 0 #ccc;
+}
+.swiggy:hover h3{
+   visibility: visible;
+   color: blue;
+
+}
+h2{
+font-size:18px;
+cursor: pointer;
+}
+.container p{
+  margin-top:-12px;
+}
+p{
+font-size:15px;
+color:#6e6767;
+}
+img{
+    border-radius: 3px;
+    filter:contrast(500%);
+}
+pre{
+    font-size: 15px;
+    color: #7c7777;
+    cursor: pointer;
+}
+.bing span{
+    color:#fff;
+    background-color: rgb(44, 202, 44);
+    padding: 5px;
+    
+}
+h4{
+    color: #742323;b
+    cursor: pointer;
+}
+.ping iconify-icon{
+margin-right:10px ;
+margin-top: 5px;
+color:#000;
+background-color: rgb(150, 40, 40);
+border-radius:50% ;
+}
+.abi h3{
+    color: blue;
+    font-size: 12px;
+    text-align: center;
+    visibility: hidden;
+
+}
+.ping{
+    border-bottom: 1px solid #949393;
+    border-top: 1px solid #949393;
+
+}
+</style>  
+</head>
+<body>
+<div class="swiggy" data-aos="flip-up" data-aos-duration="1000">
+<img src="C:/Users/abinesh/Desktop/FABEVY/java script/national-fast-food-day.webp" width="100%">
+<div class="container">
+<h2>BURGER BING</h2>
+<p>Fast Food Pizzas,Beverages</p>
+<div class="bing">
+<pre><span><iconify-icon icon="material-symbols:star-half"></iconify-icon>4.5</span> .  48mins   .   ₹300 For Two</pre>
+</div>
+<div class="ping">
+ <h4><iconify-icon icon="iconoir:percentage-circle"></iconify-icon>FREE DELIVERY</h4>
+</div>
+<div class="abi">
+    <h3>QUICK VIEW</h3>
+</div>
+ <button onclick="one(a+=1)">+ </button>
+	   <input type="text" id="output">
+	   <button onclick="one(a-=1)">-</button>
+</div>
+</div>
+<script>
+     let a=0;
+		  function one(a){
+		    if(a>=0){
+			document.getElementById("output").value=a;
+			  console.log(a);
+        
+			}
+		  }
+     
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
